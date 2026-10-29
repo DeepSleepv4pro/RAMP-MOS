@@ -1,9 +1,9 @@
 # RAMP-MOS
 Abstract—Independent motion encoding and full-image
 mask decoding add computational overhead to moving
-object segmentation. Full-image processing incurs computation beyond the foreground region. We propose RAMP-MOS, a region-adaptive motion-prompted segmentation
+object segmentation. Full-image processing incurs computation beyond the foreground region. We propose RAMP-MOS, a region-adaptive motion-prompted segmentation
 framework that combines feature reuse with local mask
-decoding. A shared visual feature pyramid provides appearance representations and coarse motion estimates.
+decoding. A shared visual feature pyramid provides appearance representations and coarse motion estimates.
 Motion candidates are aggregated into a motion region
 of interest, whose extent is adjusted according to the
 reliability of the motion responses. The relative region
